@@ -34,3 +34,17 @@ def monitorizar_sistema(duracion=30, intervalo=5):
 # Ejecutar la monitorización (duración total de 30 segundos, con intervalos de 5 segundos)
 if __name__ == "__main__":
     monitorizar_sistema(duracion=30, intervalo=5)
+
+
+#Ajustar la frecuencia de Actuailización
+intervalo = 1 # segundos
+ 
+while True:
+    cpu = psutil.cpu_percent(interval=0.5) #Obtiene el porcentaje de CPU durante 0.5 segundos
+    memoria = psutil.virtual_memory() #percent
+    disco = psutil.disk_usage('/') #percent
+    red = psutil.net_io_counters().bytes_sent + psutil.net_io_counters().bytes_recv #bytes
+
+    print(f"CPU: {cpu}% | Memoria: {memoria}% | Disco: {disco}% | Red: {red} bytes")
+
+    time.sleep(intervalo) # Pausa para evitar sobrecargar el sistema
