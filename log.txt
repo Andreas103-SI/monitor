@@ -1,0 +1,44 @@
+PS C:\xampp\htdocs\xampp\monitor>                                                                                               > & C:/Users/informaticos/AppData/Local/Programs/Python/Python313/python.exe c:/xampp/htdocs/xampp/monitor/monitor.py
+Iniciando monitorización del sistema...
+
+--- Estadísticas del Sistema ---
+Uso de CPU: 4.7%
+Uso de Memoria: 74.7% (Usado: 5.87 GB / Total: 7.86 GB)
+Uso de Disco: 89.9% (Usado: 105.87 GB / Total: 117.76 GB)
+
+--- Estadísticas del Sistema ---
+Uso de CPU: 3.3%
+Uso de Memoria: 74.7% (Usado: 5.87 GB / Total: 7.86 GB)
+Uso de Disco: 89.9% (Usado: 105.87 GB / Total: 117.76 GB)
+
+--- Estadísticas del Sistema ---
+Uso de CPU: 0.8%
+Uso de Memoria: 74.6% (Usado: 5.86 GB / Total: 7.86 GB)
+Uso de Disco: 89.9% (Usado: 105.87 GB / Total: 117.76 GB)
+
+--- Estadísticas del Sistema ---
+Uso de CPU: 1.8%
+Uso de Memoria: 74.3% (Usado: 5.84 GB / Total: 7.86 GB)
+Uso de Disco: 89.9% (Usado: 105.87 GB / Total: 117.76 GB)
+
+--- Estadísticas del Sistema ---
+Uso de CPU: 2.7%
+Uso de Memoria: 74.0% (Usado: 5.82 GB / Total: 7.86 GB)
+Uso de Disco: 89.9% (Usado: 105.87 GB / Total: 117.76 GB)
+
+--- Estadísticas del Sistema ---
+Uso de CPU: 1.0%
+Uso de Memoria: 74.1% (Usado: 5.83 GB / Total: 7.86 GB)
+Uso de Disco: 89.9% (Usado: 105.87 GB / Total: 117.76 GB)
+
+--- Estadísticas del Sistema ---
+Uso de CPU: 1.8%
+Uso de Memoria: 74.0% (Usado: 5.82 GB / Total: 7.86 GB)
+Uso de Disco: 89.9% (Usado: 105.87 GB / Total: 117.76 GB)
+
+--- Estadísticas del Sistema ---
+
+Monitorización detenida por el usuario.
+
+Finalizó la monitorización del sistema.
+PS C:\xampp\htdocs\xampp\monitor> 
