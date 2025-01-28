@@ -25,7 +25,8 @@ Este proyecto es una aplicación de monitoreo de recursos del sistema, desarroll
    python monitor.py
 ## Ejemplo
  --- Estadísticas del Sistema ---
-Uso de CPU: 35%
-Uso de Memoria: 65% (Usado: 5.20 GB / Total: 8.00 GB)
-Uso de Disco: 55% (Usado: 120.00 GB / Total: 500.00 GB)
+Uso de CPU: 85%
+⚠️ ALERTA: El uso de CPU ha excedido el umbral de 80% (Actual: 85%)
+Uso de Memoria: 70% (Usado: 5.20 GB / Total: 8.00 GB)
+Uso de Disco: 50% (Usado: 120.00 GB / Total: 500.00 GB)
 
