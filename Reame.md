@@ -1,33 +1,31 @@
-# Proyecto de Monitoreo
+# Proyecto de Monitoreo de Recursos del Sistema
 
-Este proyecto es una aplicación de monitoreo desarrollada con XAMPP.
+Este proyecto es una aplicación de monitoreo de recursos del sistema, desarrollada utilizando Python. Su propósito es rastrear y mostrar métricas clave del sistema como el uso de CPU, memoria y disco en tiempo real. Es una herramienta útil para entender el rendimiento del sistema y detectar posibles cuellos de botella.
+
+## Características
+
+- Monitoreo en tiempo real del uso de CPU, memoria y disco.
+- Configuración personalizable de la duración total del monitoreo y el intervalo de actualización.
+- Reporte detallado en consola de las métricas monitoreadas.
 
 ## Requisitos
 
-- XAMPP
-- Navegador web
+- Python 3.x
+- Biblioteca psutil** (para recopilar métricas del sistema)
 
 ## Instalación
 
-1. Clona el repositorio en tu máquina local.
-2. Coloca los archivos en el directorio `htdocs` de XAMPP.
-3. Inicia el servidor Apache desde el panel de control de XAMPP.
-4. Abre tu navegador y navega a `http://localhost/xampp/monitor`.
-
+1. Clona el repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/Andreas103-SI/monitor.git
 ## Uso
 
-Describe aquí cómo utilizar la aplicación de monitoreo.
+1. Ejecuta el programa desde tu terminal:
+   ```bash
+   python monitor.py
+## Ejemplo
+ --- Estadísticas del Sistema ---
+Uso de CPU: 35%
+Uso de Memoria: 65% (Usado: 5.20 GB / Total: 8.00 GB)
+Uso de Disco: 55% (Usado: 120.00 GB / Total: 500.00 GB)
 
-## Contribuciones
-
-Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
-
-1. Haz un fork del repositorio.
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios y haz commit (`git commit -am 'Añadir nueva funcionalidad'`).
-4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`).
-5. Abre un Pull Request.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
